@@ -1,0 +1,75 @@
+.overlay {
+    background-color: rgba(0,0,0, 0.6);
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 50;
+}
+
+.modal {
+    background: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    left: calc(50vw - 300px);
+    padding: 15px;
+    position: fixed;
+    top: 5vw;
+    width: 600px;
+    z-index: 100;
+    header {
+        align-items: center;
+        border-bottom: 1px solid #ccc;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        .modal-title {
+            margin : 0;
+        }
+    }
+    .close-button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        img {
+            width: 18px;
+        }
+    }
+    .modal-content {
+        padding: 15px;
+        label {
+            font-size: 14px;
+        }
+        input, select {
+            border: 1px solid rgba(0,0,0,.250);
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 5px 0 15px 0;
+            padding: 13px 13px 13px 8px;
+            width: 100%;
+            &:focus {
+                outline: 1px solid rgba(0,0,0,.2);
+            }
+        }
+        .button-modal {
+            background-color: #67BACA;
+            border: none;
+            border-radius: 5px;
+            color: #FDF6F6;
+            cursor: pointer;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+            outline: none;
+            padding: 13px;
+            text-transform: uppercase;
+            transition: .3s linear;
+            width: 100%;
+            &:hover {
+                background-color: #FE0000;
+            }
+        }
+    }
+}

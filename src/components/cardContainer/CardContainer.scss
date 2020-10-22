@@ -1,0 +1,103 @@
+.card-container {
+    align-items: center;
+    background-color: #FDF6F6;
+    display: flex;
+    height: 280px;
+    margin: 0 auto;
+    max-width: 93.65vw;
+    overflow: hidden;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    .card-person {
+        display: flex;
+        justify-content: center;
+        left: 0;
+        position: relative;
+        transition: .5s ease-in-out; 
+        top: 0;
+        figure {
+            background-color: white;
+            box-sizing: border-box;
+            float: left;
+            height: 145px;
+            margin: 0 5px 0 0;
+            overflow: hidden;
+            padding: 5px; 
+            position: relative;
+            transition: .2s linear;
+            width: 115px;
+            &:hover {
+                box-shadow: 5px 10px 50px #c0c0c0;
+                height: auto;
+                transform: scale(1.3);
+                transform: translateX(0);
+                width: 180px;           
+                .figcaption-title {
+                    font-size: 13px;
+                }
+                .figcaption-p {
+                    padding-top: 5px;
+                }
+            }
+            .figure-img {
+                width: 100%;
+            }
+            figcaption {
+                .figcaption-title {
+                    font-size: 8px;
+                    margin: 0;
+                    padding-top: 5px;
+                    text-align: center;
+                }
+                .figcaption-p {
+                    font-size: 12px;
+                    margin: 0;
+                    padding-top: 25px;
+                }
+            }
+        }
+    }
+}
+
+.buttons-open-modal-container {
+    text-align: center;
+    .button-open-modal {
+        background-color: #67BACA;
+        border: none;
+        color: #FDF6F6;
+        cursor: pointer;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        height: 40px;
+        margin: 25px 5px;
+        outline: none;
+        text-transform: uppercase;
+        transition: .2s linear;
+        width: 180px;
+        &:hover {
+            background-color: #FE0000;
+        }
+    } 
+}
+
+.buttons-slider-container {
+    text-align: center;
+    .buttons-slider {
+        background: transparent;
+        border: 1px solid #FE0000;
+        border-radius: 50%;
+        color: #FE0000;
+        font-size: 25px;
+        height: 40px;
+        margin: 10px;
+        outline: none;
+        transition: .2s linear;
+        width: 40px;
+        cursor: pointer;
+        &:disabled {
+            border-color: lighten(red, 30);
+            color: lighten(red, 30);
+            cursor: default;
+        }
+    }    
+}
