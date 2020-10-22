@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/photo-gallery-app/static/css/main.d56ac0cf.chunk.css",
+    "main.js": "/photo-gallery-app/static/js/main.852fd92b.chunk.js",
+    "main.js.map": "/photo-gallery-app/static/js/main.852fd92b.chunk.js.map",
+    "runtime-main.js": "/photo-gallery-app/static/js/runtime-main.14c04d24.js",
+    "runtime-main.js.map": "/photo-gallery-app/static/js/runtime-main.14c04d24.js.map",
+    "static/js/2.f7d5d4de.chunk.js": "/photo-gallery-app/static/js/2.f7d5d4de.chunk.js",
+    "static/js/2.f7d5d4de.chunk.js.map": "/photo-gallery-app/static/js/2.f7d5d4de.chunk.js.map",
+    "index.html": "/photo-gallery-app/index.html",
+    "precache-manifest.2b26554a64746deb45f8b198ea82fb1b.js": "/photo-gallery-app/precache-manifest.2b26554a64746deb45f8b198ea82fb1b.js",
+    "service-worker.js": "/photo-gallery-app/service-worker.js",
+    "static/css/main.d56ac0cf.chunk.css.map": "/photo-gallery-app/static/css/main.d56ac0cf.chunk.css.map",
+    "static/js/2.f7d5d4de.chunk.js.LICENSE.txt": "/photo-gallery-app/static/js/2.f7d5d4de.chunk.js.LICENSE.txt",
+    "static/media/camera.svg": "/photo-gallery-app/static/media/camera.919a9f74.svg",
+    "static/media/close-button.svg": "/photo-gallery-app/static/media/close-button.aeec2863.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.14c04d24.js",
+    "static/js/2.f7d5d4de.chunk.js",
+    "static/css/main.d56ac0cf.chunk.css",
+    "static/js/main.852fd92b.chunk.js"
+  ]
+}
