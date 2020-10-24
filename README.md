@@ -17,7 +17,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - UseReducer
   - UseContext
 - Axios
-- SASS
+- SASS/scss
 
 ## Homepage
 
