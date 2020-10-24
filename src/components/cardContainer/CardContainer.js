@@ -37,8 +37,8 @@ const CardContainer = () => {
 					onClick={() => setDisplayNewPerson(true)}>
 					Add New Person
 					<FontAwesomeIcon 
-                        icon={faUserPlus} 
-                        style={{ marginLeft: `5px` }} 
+                        			icon={faUserPlus} 
+                        			style={{ marginLeft: `5px` }} 
 					/>
 				</button>
 				<button 
@@ -47,8 +47,8 @@ const CardContainer = () => {
 					onClick={() => setDisplayRandomPerson(true)}>
 					Random Person
 					<FontAwesomeIcon 
-                        icon={faUserPlus} 
-                        style={{ marginLeft: `5px` }} 
+                        			icon={faUserPlus} 
+                        			style={{ marginLeft: `5px` }} 
 					/>
 				</button>
 			</div>
@@ -62,8 +62,8 @@ const CardContainer = () => {
 					disabled={`${cardIndex === 0 ? 'disabled': ''}`} 
 					onClick={() => setCardIndex(cardIndex - 1)}>
 					<FontAwesomeIcon 
-                        icon={faChevronLeft} 
-                        style={{ marginRight: `5px` }} 
+                        			icon={faChevronLeft} 
+                        			style={{ marginRight: `5px` }} 
 					/>
 				</button>
 				<button 
@@ -72,8 +72,8 @@ const CardContainer = () => {
 					disabled={`${cardIndex === slider - 1 ? 'disabled': ''}`} 
 					onClick={() => setCardIndex(cardIndex + 1)}>
 					<FontAwesomeIcon 
-                        icon={faChevronRight} 
-                        style={{ marginLeft: `5px` }} 
+                        			icon={faChevronRight} 
+                        			style={{ marginLeft: `5px` }} 
 					/>
 				</button>
 			</section>
