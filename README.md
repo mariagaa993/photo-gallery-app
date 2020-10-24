@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br />
 - Live app -> [Photo Gallery App](https://mariagaa993.github.io/photo-gallery-app).<br />
-The application is only available for Desktop.💖
+- The application is only available for Desktop.💖
 
 ## What does the app do? 
 
@@ -12,9 +12,10 @@ The application is only available for Desktop.💖
 
 ## Was used to create the app: 
 
-- UseState
-- UseReducer
-- UseContext
+- React Hooks
+  - UseState
+  - UseReducer
+  - UseContext
 - Axios
 - SASS
 
